@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cd ../ && git pull origin master
+cd ../ && git stash && git pull origin master
