@@ -23,7 +23,6 @@ server.listen(3000, function () {
 });
 
 io.on('connection', function (socket) {
-  socket.emit('play', '35');
   socket.emit('call', { hello: 'world' });
   socket.on('response', function (data) {
     console.log(data);

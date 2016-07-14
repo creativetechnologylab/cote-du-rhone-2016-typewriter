@@ -16,8 +16,6 @@ window.onload = function() {
     if(msg != current_video){
       current_video = msg;
       play();
-    } else {
-      stop();
     }
   });
 
